@@ -1,0 +1,136 @@
+[style.css](https://github.com/user-attachments/files/29470079/style.css)
+/* ===== 基本 ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Yu Mincho","Hiragino Mincho ProN","MS Mincho",serif;
+    color:#f5f2e6;
+
+    background-image:url("images/bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/* ===== レイアウト ===== */
+
+main{
+    width:min(900px,92%);
+    margin:auto;
+    padding:60px 0;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:54px;
+    color:#f5f2e6;
+    letter-spacing:10px;
+
+    text-shadow:
+        0 0 10px rgba(193,18,31,0.4),
+        0 0 25px rgba(139,0,0,0.2);
+}
+
+.catchcopy{
+    margin-top:20px;
+    font-style:italic;
+    color:#d8c8a8;
+}
+
+.subtext{
+    margin-top:10px;
+    font-size:12px;
+    color:#777;
+    letter-spacing:2px;
+}
+
+/* ===== セクション ===== */
+
+section{
+    background:none;
+    border:none;
+    padding:40px 0;
+    margin:60px 0;
+}
+
+
+section:hover{
+    border-color:rgba(193,18,31,0.8);
+}
+
+h2{
+    text-align:center;
+    color:#d4af37;
+    margin-bottom:25px;
+    letter-spacing:4px;
+}
+
+/* ===== ココフォリア ===== */
+
+.room img{
+    width:100%;
+    border-radius:8px;
+    border:2px solid #8b0000;
+    display:block;
+}
+
+.room-link{
+    display:block;
+    margin:20px auto 0;
+    width:fit-content;
+
+    padding:12px 24px;
+
+    border:1px solid #8b0000;
+    color:#f5f2eb;
+    text-decoration:none;
+
+    background:rgba(0,0,0,0.4);
+
+    border-radius:6px;
+
+    transition:.3s;
+}
+
+.room-link:hover{
+    background:#8b0000;
+    transform:translateY(-2px);
+}
+
+/* ===== キャラ ===== */
+
+.coming-soon{
+    text-align:center;
+    padding:40px;
+    color:#999;
+}
+
+/* ===== スマホ ===== */
+
+@media screen and (max-width:768px){
+
+    .hero h1{
+        font-size:36px;
+        letter-spacing:6px;
+    }
+
+    main{
+        padding:30px 0;
+    }
+
+    section{
+        padding:25px 18px;
+    }
+}
