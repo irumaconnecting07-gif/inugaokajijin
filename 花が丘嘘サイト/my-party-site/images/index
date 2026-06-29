@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>私立犬ヶ丘秘密倶楽部</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <h1>私立犬ヶ丘秘密倶楽部</h1>
+
+        <p class="catchcopy">
+            「これはね、私が知っている中で一番怖いお話なんだけど…」
+        </p>
+
+        <p class="subtext">
+            
+        </p>
+
+    </section>
+
+
+    <!-- ココフォリア -->
+    <section class="room">
+
+        <h2>ココフォリア</h2>
+
+
+        <a href="https://ccfolia.com/rooms/5GGefhlfI"
+           target="_blank"
+           class="room-link">
+            マト部屋だよー
+        </a>
+
+    </section>
+
+
+    <!-- キャラクター -->
+    <section class="character">
+
+        <h2>Character</h2>
+
+        <div class="coming-soon">
+            Coming Soon...
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
